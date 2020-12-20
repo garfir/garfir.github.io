@@ -23,9 +23,6 @@
 
         .navbar {
             font-family: Arial, Helvetica, sans-serif;
-            display: flex;
-            flex-direction: row;
-            margin-left: 39%;
         }
 
         .content {
@@ -43,8 +40,29 @@
             height: 20px;
         }
 
-        .spacer {
-            width: 5vw;
+        .products {
+            text-align: center;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            width: 180px;
+            display: inline-block;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
         }
     </style>
 </head>
@@ -56,11 +74,19 @@
         </div>
         <hr>
         <div class="navbar">
-            <a href="https://slavtech.cf/">Główna</a><div class="spacer"></div><a href="https://slavtech.cf/about/"><u>O nas</u></a><div class="spacer"></div><a href="https://slavtech.cf/products/">Produkty</a>
+            <center><a class="navbar-a" href="https://slavtech.cf/">Główna </a>
+                <a class="navbar-a" href="https://slavtech.cf/about/"> O nas </a>
+                <a class="navbar-a" href="https://slavtech.cf/products/"><u> Produkty</u></a>
+            </center>
         </div>
         <hr>
         <div class="content">
-
+            <center>
+                <h2>O nas</h2>
+                Jesteśmy firmą zajmującą się produkcją detaliczną sprzętu audio dobrej jakości.<br><br>
+                <a href="https://www.youtube.com/channel/UCLXkohXrl23guZDa_c94PAQ"><b>Kanał Youtube</b></a><br><br>
+                <a href="mailto:"><b>E-Mail</b></a>
+            </center>
         </div>
         <div class="footer">
             <marquee>OFICIALNA STRONA ZNANEJ FIRMY PRODUKUJĄCEJ DOBRY SPRZĘT AUDIO I NIE TYLKO</marquee>
