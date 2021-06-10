@@ -31,3 +31,10 @@ div.gallery img {
 h2 {
     font-size: 3vh;
 }
+div.gallery {
+    transition: 200ms;
+    margin: 5px;
+    border: 2px solid #ffffff;
+    width: 20.2vh;
+    display: inline-block;
+}
